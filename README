@@ -1,0 +1,11 @@
+To run the uci dataset experiments, one can run the following command for each data set:
+-Breast Cancer (BC $m_1 = 5$): python experiment_breast_cancer.py
+-Breast Cancer (BC $m_1 = 25$): python experiment_breast_cancer_2.py
+-Ionosphere (IO $m_1 = 4$): python experiment_ionosphere.py
+-Ionosphere (IO $m_1 = 25$): python experiment_ionosphere_2.py
+-Heart Disease (HD): python experiment_heart.py
+-Handwritten Digits 1vs8 (1vs8): python experiment_digits.py
+
+
+To run the experiment on our synthetically generated data, run the following script:
+python shift_experiment.py
